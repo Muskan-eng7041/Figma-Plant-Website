@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .home{
@@ -87,6 +88,75 @@ a{
     padding-top: 7px;
     padding-bottom: 7px;
 }
+.comment-bg{
+    margin-left: 50px;
+    height: 200px;
+}
+.comment-container{
+    width: 100%;
+    position: relative;
+}
+.imgTop{
+    position: absolute;
+    top:-70px;
+    left: 10px;
+}
+.comment-txt{
+    height: 63px;
+    width: 230px;
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 44px;
+    left: 89px;
+    font-size: 15px;
+}
+.heading-con{
+    text-align: center;
+    margin-top: 100px;
+}
+.heading{
+    width: 400px;
+}
+
+.card-cont-bg{
+    margin-left: 55px;
+    width: 1200px;
+    height: 450px;
+    margin-top: 120px;
+    position: relative;
+}
+.plant{
+    height: 750px;
+    position: absolute;
+    top: 975px;
+    left: 100px;
+}
+.card-con-text{
+    position: absolute;
+    top: 1175px;
+    left: 650px;
+}
+.card-con1{
+    height: 150px;
+}
+.card-con-text p{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 500px;
+    left: 65px;
+}
+.card-con-text h3{
+    position: absolute;
+    font-size: 25px;
+    top: 250px;
+    left: 59px;
+    font-weight: bold;
+}
+/* .explore-button{
+    position: absolute;
+
+} */
 @media (max-width: 540px) {
   .home {
     width: 100%;
@@ -174,6 +244,29 @@ a{
     .plant-name{
         font-size: 10px;
     }
+    .comment-bg{
+    margin-left: 20px;
+    height: 100px;
+}
+    .imgTop{
+    height: 150px;
+    position: absolute;
+    top:-30px;
+    left: 10px;
+}
+.comment-txt{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 20px;
+    left: 49px;
+    font-size: 8px;
+}
+.heading{
+    width: 200px;
+}
+
 }
 @media (min-width: 541px) and (max-width: 768px) {
     .home {
@@ -256,6 +349,25 @@ a{
     .plant-name{
         font-size: 18px;
     }
+        .comment-bg{
+    margin-left: 20px;
+    height: 100px;
+}
+    .imgTop{
+    height: 150px;
+    position: absolute;
+    top:-30px;
+    left: 10px;
+}
+.comment-txt{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 20px;
+    left: 49px;
+    font-size: 8px;
+}
 }
 @media (min-width: 769px) and (max-width: 1299px){
     .home {
